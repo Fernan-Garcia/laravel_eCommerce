@@ -6,6 +6,8 @@ A web-based e-commerce application built with **Laravel** for browsing and buyin
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+**Live site:** [http://tp4.4d6.2262843.techinfo-cstj.ca/](http://tp4.4d6.2262843.techinfo-cstj.ca/)
+
 ---
 
 ## About
@@ -92,11 +94,21 @@ Make sure you have these installed:
 
 ## Project Structure
 
+```
+laravel_eCommerce/
+└── TP0Synthese_eCommerceFigurines/
+    ├── app/          # Models, controllers, and application logic
+    ├── database/     # Migrations, seeders, and factories
+    ├── resources/    # Blade views, CSS, and JavaScript
+    ├── routes/       # Web routes
+    └── public/       # Public assets and entry point
+```
+
+<!--
 ## Screenshots
 
 Add screenshots of the app in a `screenshots/` folder and link them here:
 
-<!--
 ![Home page](screenshots/home.png)
 ![Product page](screenshots/product.png)
 ![Cart](screenshots/cart.png)
