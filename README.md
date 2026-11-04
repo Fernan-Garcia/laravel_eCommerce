@@ -125,7 +125,7 @@ Add screenshots of the app in a `screenshots/` folder and link them here:
 
 ## Author
 
-**Fernan Garcia**
+**Fernando Garcia**
 GitHub: [@Fernan-Garcia](https://github.com/Fernan-Garcia)
 
 ---
