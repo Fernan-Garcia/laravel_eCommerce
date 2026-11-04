@@ -1,4 +1,4 @@
-# 🛒 Laravel eCommerce – Figurines Store
+# Laravel eCommerce – Figurines Store
 
 A web-based e-commerce application built with **Laravel** for browsing and buying collectible figurines. Developed as a school project (*TP0 – Synthèse*) to practice full-stack web development with PHP and the Laravel framework.
 
@@ -8,31 +8,30 @@ A web-based e-commerce application built with **Laravel** for browsing and buyin
 
 ---
 
-## 📖 About
+## About
 
 This project is an online store where users can browse a catalog of figurines, view product details, and manage a shopping cart. It follows the MVC architecture provided by Laravel and uses a relational database to store products, users, and orders.
 
-## ✨ Features
+## Features
 
-> ✏️ *Edit this list so it matches what your project actually does.*
+- Product catalog with images, descriptions, and prices
+- Product detail pages
+- Shopping cart (add, update, remove items)
+- User registration and login
+- Stripe payment integration
+- Admin management of products *(if applicable)*
 
-- 🧸 Product catalog with images, descriptions, and prices
-- 🔍 Product detail pages
-- 🛍️ Shopping cart (add, update, remove items)
-- 👤 User registration and login
-- 📦 Order management
-- 🛠️ Admin management of products *(if applicable)*
+## Tech Stack
 
-## 🧰 Tech Stack
+| Layer    | Technology                             |
+|----------|----------------------------------------|
+| Backend  | PHP, Laravel                           |
+| Frontend | Blade templates, HTML, CSS, JavaScript |
+| Database | MySQL *(or SQLite, adjust as needed)*  |
+| Payments | Stripe                                 |
+| Tooling  | Composer, npm, Artisan                 |
 
-| Layer      | Technology                          |
-|------------|-------------------------------------|
-| Backend    | PHP, Laravel                        |
-| Frontend   | Blade templates, HTML, CSS, JavaScript |
-| Database   | MySQL *(or SQLite, adjust as needed)* |
-| Tooling    | Composer, npm, Artisan              |
-
-## 📋 Requirements
+## Requirements
 
 Make sure you have these installed:
 
@@ -41,7 +40,7 @@ Make sure you have these installed:
 - [Node.js and npm](https://nodejs.org/)
 - A database server such as MySQL (XAMPP, WAMP, or Laragon all work)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -91,21 +90,11 @@ Make sure you have these installed:
    ```
    Then open **http://localhost:8000** in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
-```
-laravel_eCommerce/
-└── TP0Synthese_eCommerceFigurines/
-    ├── app/          # Models, controllers, and application logic
-    ├── database/     # Migrations, seeders, and factories
-    ├── resources/    # Blade views, CSS, and JavaScript
-    ├── routes/       # Web routes
-    └── public/       # Public assets and entry point
-```
+## Screenshots
 
-## 📸 Screenshots
-
-> ✏️ *Add a few screenshots of your app here. Put the images in a `screenshots/` folder and link them:*
+Add screenshots of the app in a `screenshots/` folder and link them here:
 
 <!--
 ![Home page](screenshots/home.png)
@@ -113,15 +102,16 @@ laravel_eCommerce/
 ![Cart](screenshots/cart.png)
 -->
 
-## 🎓 What I Learned
+## What I Learned
 
 - Building an application with the MVC pattern in Laravel
 - Designing database tables with migrations and Eloquent relationships
 - Creating dynamic pages with Blade templates
 - Handling authentication, forms, and validation
+- Integrating Stripe for payments
 - Managing a project with Git and GitHub
 
-## 👤 Author
+## Author
 
 **Fernan Garcia**
 GitHub: [@Fernan-Garcia](https://github.com/Fernan-Garcia)
